@@ -1,0 +1,128 @@
+.header-bar {
+  /* box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 #dadce0; */
+  /* background-color: #ba89b6; */
+}
+.popup-div-content {
+  /* box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 #dadce0 !important; */
+  padding: 15px !important;
+  width: 220px !important;
+}
+.logo {
+  width: 165px;
+  cursor: pointer;
+  margin-left: 90px;
+}
+
+.nav-link {
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.main-head {
+  margin-left: 30px !important;
+  letter-spacing: 0px;
+}
+
+.single-item {
+  margin-left: 50px !important;
+}
+
+.text-style {
+  margin-bottom: 20px;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-light .navbar-toggler:focus {
+  outline: none;
+}
+
+.search-bar {
+  width: 800px;
+}
+
+.cart-popup {
+  min-height: 150px;
+}
+
+.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+}
+
+.cart-item {
+  box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 #dadce0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.f-10 {
+  font-size: 14px;
+}
+
+.popup-div-cart-content {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 #dadce0 !important;
+  width: 300px !important;
+  height: auto;
+  /* overflow: scroll; */
+}
+
+.cart-scroll {
+  max-height: 500px;
+  overflow: scroll;
+}
+
+.cart-scroll::-webkit-scrollbar {
+  display: none !important;
+}
+
+.popup-div-cart-content::-webkit-scrollbar {
+  display: none !important;
+}
+
+.dlt-btn:hover {
+  color: red;
+}
+
+.cart-badge {
+  position: relative;
+}
+
+.badge {
+  background-color: #f7c168;
+  font-weight: bold !important;
+  border-radius: 100% !important;
+  padding: 5px 5px !important;
+  height: 20px;
+  width: 20px;
+  font-size: 10px !important;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+.user-name {
+  margin-left: 7px;
+}
+
+@media screen and (max-width: 1060px) {
+  .search-bar {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .search-bar {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .search-bar {
+    width: 500px;
+  }
+}

@@ -1,0 +1,9 @@
+.input-div > select {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+
+.input-div > select:focus {
+    outline: none;
+}

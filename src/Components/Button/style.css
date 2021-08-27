@@ -1,0 +1,24 @@
+.custom-btn {
+  background-color: #ff8b5d;
+  border: none;
+  border-radius: 22px;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.custom-btn:focus {
+  outline: none;
+}
+
+.custom-btn:active {
+  opacity: 0.5;
+}
+
+.spinner-border {
+  height: 22px !important;
+  width: 22px !important;
+}

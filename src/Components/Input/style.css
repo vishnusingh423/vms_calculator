@@ -1,0 +1,15 @@
+.input-div > input {
+  border: none;
+  outline: none;
+  background-color: #f5f5f5;
+  padding-left: 5px;
+  width: 100%;
+}
+
+.input-div {
+  border: 1px solid #5f6368;
+  background-color: #f5f5f5;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}

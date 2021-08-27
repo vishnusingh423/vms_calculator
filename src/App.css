@@ -1,0 +1,13 @@
+@font-face {
+  font-family: century;
+  src: url("./Assets/font/century-gothic.ttf");
+}
+
+body {
+  background-color: #f8f9fa !important;
+  font-family: century !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
